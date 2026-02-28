@@ -16,7 +16,7 @@ This library can be used to optimize prices of hotels with three different room 
 
 -> Each step will require an instance of one of the classes above to work. Otherwise useful error-messages will arise.  
 -> For each class- and instance-method short informative docstrings are provided.  
--> A main() function was implemented to run the complete basic pipeline for a certain data-base and future date automatically. A summary-result will be printed directly. Returns None though.
+-> A main() function was implemented to run the complete basic pipeline for a certain data-base and future date automatically. A summary-result will be printed directly. Returns None though.  
 -> A demonstration of the package in use can be found in demo_of_project.html
 
 ## Why hotel_po is useful
