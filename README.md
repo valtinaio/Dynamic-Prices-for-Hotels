@@ -2,7 +2,7 @@
 Optimization Algorithm to maximize revenue based on the current demand level using a Random Forest.
 
 ## Requirements
-Python Version 3.10 or newer.
+Python Version 3.10 or newer.  
 csv Database
 
 ## Usage of hotel_po
