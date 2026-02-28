@@ -38,22 +38,22 @@ Review results which are saved as instance-attributes within the PriceOptimazati
 An application of this workflow can be found in demo_of_project.html
 
 ## Code-Example:
-import sys
-from pathlib import Path
-import os
+import sys  
+from pathlib import Path  
+import os  
 
-current_path = Path.cwd().resolve()
-sys.path.append(str(current_path))
+current_path = Path.cwd().resolve()  
+sys.path.append(str(current_path))  
 
-from hotel_po import price_optimization as po
+from hotel_po import price_optimization as po  
 
-features = po.Features("synthetic_hotel_data.csv")
-features.get_all_final_features()
+features = po.Features("synthetic_hotel_data.csv")  
+features.get_all_final_features()  
 
-model = po.ModelRF(features)
-model.get_all_optimized_hyperparameters()
-model.get_all_final_models()
+model = po.ModelRF(features)  
+model.get_all_optimized_hyperparameters()  
+model.get_all_final_models()  
 
-price = po.PriceOptimization(model, "2025-02-15")
-price.get_all_optimized_prices()
-price.get_all_comparisons()
+price = po.PriceOptimization(model, "2025-02-15")  
+price.get_all_optimized_prices()  
+price.get_all_comparisons()  
