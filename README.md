@@ -1,17 +1,17 @@
 # Dynamic-Prices-for-Hotels
 Optimization Algorithm to maximize revenue based on the current demand level using a Random Forest.
 
-## **Requirements**
+## Requirements
 Python Version 3.10 or newer.
 csv Database
 
 ## Usage of hotel_po
 This library can be used to optimize prices of hotels with three different room classes for arrival days in the future. The main scope is to predict the demand of a hotel room with a Random Forest Regressor based on different features (including the price) whereby for a certain date in the future a revenue-maximizing price can be found for each room class. For doing so 5 different classes were created with a pipeline order:
 
-Data			-> A class that imports and checks the data.
+**Data**: A class that imports and checks the data.
 Overview		-> A class that creates different overview possibilities of the data.
 Features		-> A class that creates optimized features for a Random Forest Regressor.
-ModelRF		-> A class that creates an optimized Random Forest Regressor to predict demand.
+ModelRF		  -> A class that creates an optimized Random Forest Regressor to predict demand.
 PriceOptimization	-> A class that optimizes prices for a given future date maximizing the revenue.
 
 -> Each step will require an instance of one of the classes above to work. Otherwise useful error-messages will arise.
