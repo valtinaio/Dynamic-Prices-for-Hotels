@@ -1,5 +1,5 @@
 # Dynamic-Prices-for-Hotels
-Optimization Algorithm to maximize revenue based on the current demand level using a Random Forest.
+Optimization Algorithm to maximize hotel revenues based on the current demand level using a Random Forest.
 
 ## Requirements
 Python Version 3.10 or newer.  
