@@ -1,0 +1,6 @@
+pandas
+pathlib
+matplotlib
+seaborn
+scikit-learn
+holidays
