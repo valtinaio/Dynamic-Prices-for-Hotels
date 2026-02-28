@@ -3,7 +3,7 @@ Optimization Algorithm to maximize revenue based on the current demand level usi
 
 ## Requirements
 Python Version 3.10 or newer.  
-csv Database
+csv Database  
 See requirements.txt
 
 ## Usage of hotel_po
