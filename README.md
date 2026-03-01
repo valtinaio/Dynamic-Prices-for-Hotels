@@ -26,7 +26,7 @@ This package is a powerful tool for hotels to maximize their revenue by dynamic 
 ## Limitations
 There are two main limitations:  
 1. Since the model learns from old data, the hotel must have been using dynamic prices already before using this package to create enough variance within the prices.  
-2. The hotel must have exactly 3 room classes.
+2. The hotel must have exactly 3 room classes and the exact features needed. Although those features should be standard in any hotel data base (date, price etc.)
 
 ## Recommended basic Workflow to Optimize Prices using hotel_po
 Create an Overview() object and use the available methods to get to know your data.  
