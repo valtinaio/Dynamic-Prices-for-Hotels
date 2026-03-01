@@ -29,12 +29,12 @@ There are two main limitations:
 2. The hotel must have exactly 3 room classes and the exact features needed. Although those features should be standard in any hotel data base (date, price etc.)
 
 ## Recommended basic Workflow to Optimize Prices using hotel_po
-Create an Overview() object and use the available methods to get to know your data.  
-Create a Features() object and apply the get_all_final_features() method.  
-Create a ModelRF() object and apply the get_all_optimized_hyperparaeters() method.  
-Based on that same ModelRF() object apply next the get_all_final_models() method to fit all final models.  
-Create a PriceOptimazation() object for a date in the future and apply the get_all_optimized_prices() and get_all_comparisons() methods.  
-Review results which are saved as instance-attributes within the PriceOptimazation() object.  
+1. Create an Overview() object and use the available methods to get to know your data.  
+2. Create a Features() object and apply the get_all_final_features() method.  
+3. Create a ModelRF() object and apply the get_all_optimized_hyperparaeters() method.  
+4. Based on that same ModelRF() object apply next the get_all_final_models() method to fit all final models.  
+5. Create a PriceOptimazation() object for a date in the future and apply the get_all_optimized_prices() and get_all_comparisons() methods.  
+6. Review results which are saved as instance-attributes within the PriceOptimazation() object.  
 
 An application of this workflow can be found in demo_of_project.html
 
